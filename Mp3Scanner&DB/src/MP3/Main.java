@@ -156,7 +156,7 @@ public class Main {
 		
 		JLabel ImageLabel = new JLabel("");
 		ImageLabel.setBounds(491, 11, 200, 200);
-		Image img = new ImageIcon(this.getClass().getResource("/search.png")).getImage();
+		Image img = new ImageIcon(this.getClass().getResource("/search_icon.png")).getImage();
 		ImageLabel.setIcon(new ImageIcon(img));
 		scanPanel.add(ImageLabel);
 		
